@@ -1,0 +1,50 @@
+{
+  "name": "My Life OS",
+  "short_name": "Life OS",
+  "description": "Your personal offline productivity system — habits, tasks, expenses, notes and more",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0A14",
+  "theme_color": "#8B5CF6",
+  "lang": "en",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "lifestyle", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Add Task",
+      "short_name": "Task",
+      "description": "Quickly add a new task",
+      "url": "./index.html#/tasks",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Add Expense",
+      "short_name": "Expense",
+      "description": "Log an expense",
+      "url": "./index.html#/expenses",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Note",
+      "short_name": "Note",
+      "description": "Create a quick note",
+      "url": "./index.html#/notes",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
